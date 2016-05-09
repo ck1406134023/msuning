@@ -1,0 +1,395 @@
+header {
+  width: 100%;
+  height: 0.85rem;
+  background: #fabc09;
+  /* position: fixed;
+  top: 0;
+  z-index: 300;*/
+}
+header a.fenlei {
+  display: block;
+  float: left;
+  margin: 0.1rem 0.26rem 0.08rem 0.24rem;
+  width: 0.44rem;
+  height: 0.69rem;
+  background: url(../images/fenlei.png);
+  background-size: .44rem 0.7rem;
+}
+header .wbox {
+  position: relative;
+  float: left;
+}
+header .wbox .search {
+  width: 100%;
+}
+header .wbox .search:before {
+  content: "";
+  left: .2rem;
+  top: .3rem;
+  width: .27rem;
+  height: .28rem;
+  background: url(../images/search.png) no-repeat;
+  -webkit-background-size: 0.27rem 0.28rem;
+  background-size: 0.27rem 0.28rem;
+  display: block;
+  float: left;
+  position: absolute;
+  height: 0.88rem;
+  z-index: 10;
+}
+header .wbox .search input {
+  border: 0;
+  margin-top: 0.12rem;
+  -webkit-border-radius: 4px;
+  padding: 0 .2rem 0 0.57rem;
+  width: 100%;
+  height: 0.6rem;
+  line-height: 0.6rem;
+  background: rgba(255, 255, 255, 0.8);
+  font-size: .24rem;
+  color: #999;
+  -webkit-appearance: none;
+}
+header .shop {
+  width: 0.97rem;
+  height: 0.88rem;
+  float: right;
+  position: relative;
+}
+header .shop a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: .12rem .17rem .08rem;
+  width: 0.63rem;
+  height: 0.68rem;
+  background: url(../images/shop.png);
+  background-size: 0.63rem 0.68rem;
+  -webkit-mask-image: none;
+}
+.banner {
+  width: 100%;
+  height: 3.1rem;
+  float: left;
+  position: relative;
+}
+.banner .imgbox {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+.banner .imgbox li {
+  width: 100%;
+  height: auto;
+}
+.banner .imgbox li img {
+  position: absolute;
+  width: 100%;
+}
+.banner .btn {
+  position: absolute;
+  right: 0.1rem;
+  top: 2.7rem;
+  width: 1.7rem;
+  height: 0.15rem;
+}
+.banner .btn span {
+  display: block;
+  float: left;
+  width: 0.12rem;
+  height: 0.12rem;
+  background: #F1F3F1;
+  border: 1px solid #000;
+  border-radius: 0.05rem;
+  margin-right: 0.05rem;
+}
+.floor1 {
+  padding: 0.24rem 0 0 0;
+  width: 100%;
+  height: 2.82rem;
+  overflow: hidden;
+}
+.floor1 li {
+  width: 20%;
+  height: 1.31rem;
+  float: left;
+}
+.floor1 li img {
+  width: 0.76rem;
+  height: 0.76rem;
+  margin-left: 0.4rem;
+}
+.floor1 li .title {
+  color: #7b7f82;
+  font-size: .24rem;
+  line-height: 0.24rem;
+  text-align: center;
+  margin-top: 0.05rem;
+}
+.tit1 {
+  padding: .2rem 0;
+  width: 100%;
+  height: 1.04rem;
+  background-color: #fff;
+}
+.tit1 > a {
+  display: block;
+  width: 1.45rem;
+  height: 0.64rem;
+  float: left;
+  background: url(../images/toutiao.png) no-repeat;
+  background-size: 1.45rem 0.64rem;
+}
+.tit1 span {
+  margin: 0 0.19rem;
+  color: #ccc;
+  float: left;
+  text-align: center;
+  line-height: 0.64rem;
+  font-size: 0.4rem;
+}
+.tit1 div {
+  height: 100%;
+  float: left;
+}
+.tit1 div a {
+  height: 0.32rem;
+  overflow: hidden;
+  display: block;
+  margin-left: .4rem;
+  width: 4.33rem;
+  height: .32rem;
+  line-height: .32rem;
+  font-size: .26rem;
+  color: #333;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  white-space: normal;
+}
+.tit1 div a:before {
+  width: 0.12rem;
+  height: 0.12rem;
+  background: #FFC001;
+  border-radius: 3px;
+}
+.tiao {
+  width: 100%;
+  height: 0.21rem;
+  background: #F2F2F2;
+}
+.floor2 {
+  background-color: #fff;
+}
+.floor2 .floor2-title {
+  position: relative;
+  height: 0.8rem;
+  overflow: hidden;
+}
+.floor2 .floor2-title .logo {
+  margin-left: .2rem;
+  width: 1.36rem;
+  height: 0.8rem;
+  float: left;
+  background: url(../images/zhangshangqiang1.png) no-repeat;
+  background-size: 1.36rem .47rem;
+  background-position: center center;
+}
+.floor2 .floor2-title .time {
+  float: left;
+  margin-left: .2rem;
+  height: 0.8rem;
+  line-height: 1rem;
+  font-size: .2rem;
+  color: #fa4b4b;
+}
+.floor2 .floor2-title .times {
+  height: 0.8rem;
+  line-height: 0.95rem;
+  color: #000;
+  font-size: 0.4rem;
+  float: left;
+}
+.floor2 .floor2-title .times span {
+  display: inline-block;
+  margin: 0 .2rem;
+  border: 1px solid #333;
+  -webkit-border-radius: 2px;
+  width: .28rem;
+  height: .28rem;
+  line-height: .28rem;
+  font-size: .2rem;
+  color: #333;
+}
+.floor2 .floor2-title .miaosha {
+  display: block;
+  width: 0.86rem;
+  height: 0.34rem;
+  float: right;
+  margin-top: .3rem;
+  border-radius: .15rem;
+  padding: 0 .1rem;
+  height: .35rem;
+  line-height: .375rem;
+  background-color: #ffc001;
+  font-size: .2rem;
+  color: #783e18;
+  overflow: hidden;
+}
+.floor2 .floor2-title .jiantou {
+  display: block;
+  float: left;
+  margin-left: .1rem;
+  width: .3rem;
+  height: 1.6rem;
+  background: url(../images/jiantou.png
+      ) no-repeat center 0.35rem;
+  background-size: 0.15rem .28rem;
+}
+.floor2 .item {
+  width: 100%;
+  height: 2.5rem;
+  overflow: hidden;
+}
+.floor2 .item ul li {
+  float: left;
+  margin-right: 0.14rem;
+}
+.floor2 .item ul li img {
+  display: block;
+  width: 2.2rem;
+  height: 1.65rem;
+  border: 1px solid #999;
+}
+.floor2 .item ul li .prices {
+  position: relative;
+  width: 2.2rem;
+  height: 0.7rem;
+  background-color: #ddd;
+}
+.floor2 .item ul li .prices span {
+  display: block;
+  margin-left: .2rem;
+  font-size: .26rem;
+  color: #d00;
+}
+.floor2 .item ul li .prices .old {
+  display: block;
+  margin-left: .2rem;
+  font-size: .18rem;
+  color: #999;
+}
+.floor2 .item ul li .prices .sale {
+  display: block;
+  position: absolute;
+  top: -0.06rem;
+  right: .1rem;
+  padding-top: .05rem;
+  width: 0.72rem;
+  height: 0.76rem;
+  background: url(../images/red.png) no-repeat;
+  background-size: 0.72rem 0.76rem;
+}
+.floor3 {
+  width: 100%;
+  height: 2.88rem;
+  background: #eee;
+}
+.floor3 a {
+  display: block;
+  width: 3.59rem;
+  height: 100%;
+  float: left;
+}
+.floor3 a img {
+  display: block;
+  width: 3.59rem;
+  height: 100%;
+}
+.floor3 a:nth-of-type(2n) {
+  float: right;
+}
+.floor4 {
+  width: 100%;
+  height: 2.3rem;
+  background: #eee;
+}
+.floor4 a {
+  display: block;
+  width: 3.59rem;
+  height: 100%;
+  float: left;
+}
+.floor4 a img {
+  display: block;
+  width: 3.59rem;
+  height: 100%;
+}
+.floor4 a:nth-of-type(2n) {
+  float: right;
+}
+.floor5 {
+  overflow: hidden;
+}
+.floor5 .title {
+  width: 7.2rem;
+  height: 0.6rem;
+  background-image: url(../images/145914591429836587.png);
+  background-size: 7.2rem 0.6rem;
+}
+.floor5 .product {
+  background: #eee;
+}
+.floor5 .product a.first {
+  display: block;
+  width: 3.59rem;
+  height: 3.84rem;
+  float: left;
+}
+.floor5 .product a.first img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.floor5 .product > a {
+  display: block;
+  width: 3.59rem;
+  height: 1.38rem;
+  float: right;
+}
+.floor5 .product > a img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.floor5 .product .third {
+  float: right;
+}
+.floor5 .product .third a {
+  display: block;
+  width: 1.78rem;
+  height: 2.43rem;
+  float: left;
+}
+.floor5 .product .third a img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.floor5 .product .third a:nth-of-type(2) {
+  float: right;
+}
+.lunbo {
+  width: 100%;
+  height: 1.92rem;
+}
+.lunbo a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.lunbo a img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
