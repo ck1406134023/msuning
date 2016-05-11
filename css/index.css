@@ -1,10 +1,10 @@
 header {
-  width: 100%;
+  width: 7.2rem;
   height: 0.85rem;
   background: #fabc09;
-  /* position: fixed;
+  position: fixed;
   top: 0;
-  z-index: 300;*/
+  z-index: 300;
 }
 header a.fenlei {
   display: block;
@@ -88,7 +88,7 @@ header .shop a {
 }
 .banner .btn {
   position: absolute;
-  right: 0.1rem;
+  right: 0.15rem;
   top: 2.7rem;
   width: 1.7rem;
   height: 0.15rem;
@@ -162,10 +162,6 @@ header .shop a {
   line-height: .32rem;
   font-size: .26rem;
   color: #333;
-  text-overflow: ellipsis;
-  -webkit-line-clamp: 1;
-  -webkit-box-orient: vertical;
-  white-space: normal;
 }
 .tit1 div a:before {
   width: 0.12rem;
@@ -339,12 +335,15 @@ header .shop a {
 }
 .floor5 .product {
   background: #eee;
+  width: 100%;
+  height: auto;
 }
 .floor5 .product a.first {
   display: block;
   width: 3.59rem;
   height: 3.84rem;
   float: left;
+  overflow: hidden;
 }
 .floor5 .product a.first img {
   display: block;
@@ -392,4 +391,243 @@ header .shop a {
   display: block;
   width: 100%;
   height: 100%;
+}
+.floor6 {
+  overflow: hidden;
+  background: #eee;
+}
+.floor6 .title {
+  width: 7.2rem;
+  height: 0.6rem;
+  background-image: url(../images/145914606659420042.png);
+  background-size: 7.2rem 0.6rem;
+}
+.floor6 .product {
+  margin-top: 1px;
+  width: 100%;
+  height: auto;
+  overflow: auto;
+  background: #eee;
+}
+.floor6 .product img {
+  width: 3.59rem;
+  height: 2.9rem;
+  float: left;
+  margin-bottom: 1px;
+  overflow: hidden;
+}
+.floor6 .product img.second {
+  width: 3.59rem;
+  height: 1.44rem;
+  float: right;
+  margin-bottom: 1px;
+  overflow: hidden;
+}
+.floor6 .product .img-box {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+.floor6 .product .img-box img {
+  width: 3.59rem;
+  height: 1.38rem;
+  float: left;
+  margin-bottom: 1px;
+}
+.floor6 .product .img-box img:nth-of-type(2n) {
+  float: right;
+}
+.floor7 {
+  width: 100%;
+  height: auto;
+  background: #eee;
+  overflow: hidden;
+}
+.floor7 .title {
+  width: 7.2rem;
+  height: 0.6rem;
+  background-image: url(../images/145914606659420042.png);
+  background-size: 7.2rem 0.6rem;
+}
+.floor7 .product {
+  margin-top: 1px;
+  width: 100%;
+  height: auto;
+  background: #eee;
+  overflow: hidden;
+}
+.floor7 .product img {
+  width: 3.59rem;
+  height: 2.9rem;
+  float: left;
+  margin-bottom: 1px;
+  overflow: hidden;
+}
+.floor7 .product img:nth-of-type(2) {
+  float: right;
+}
+.floor7 .product .img-box {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  margin-top: 1px;
+}
+.floor7 .product .img-box img {
+  width: 2.38rem;
+  height: 2.3rem;
+  float: left;
+}
+.floor7 .product .img-box img:nth-of-type(2n) {
+  margin-left: 0.03rem;
+}
+.floor7 .product .img-box img:nth-of-type(3n) {
+  float: right;
+}
+.floor8 {
+  width: 100%;
+  height: auto;
+  background: #eee;
+  overflow: hidden;
+}
+.floor8 .title {
+  width: 7.2rem;
+  height: 0.6rem;
+  background-image: url(../images/145914606659420042.png);
+  background-size: 7.2rem 0.6rem;
+}
+.floor8 .product {
+  margin-top: 1px;
+  width: 100%;
+  background: #eee;
+  height: auto;
+  overflow: hidden;
+}
+.floor8 .product img:nth-of-type(1) {
+  width: 3.59rem;
+  height: 2.78rem;
+  float: left;
+  margin-right: 0.01rem;
+}
+.floor8 .product img:nth-of-type(2) {
+  width: 1.79rem;
+  height: 2.78rem;
+  float: left;
+  margin-right: 0.01rem;
+}
+.floor8 .product img:nth-of-type(3) {
+  width: 1.79rem;
+  height: 2.78rem;
+  float: right;
+}
+.floor9 {
+  overflow: hidden;
+  background: #eee;
+}
+.floor9 .title {
+  width: 7.2rem;
+  height: 0.6rem;
+  background-image: url(../images/145914606659420042.png);
+  background-size: 7.2rem 0.6rem;
+}
+.floor9 .product {
+  margin-top: 1px;
+  width: 100%;
+  height: auto;
+  overflow: auto;
+  background: #eee;
+}
+.floor9 .product img {
+  width: 3.59rem;
+  height: 2.9rem;
+  float: left;
+  margin-bottom: 1px;
+  overflow: hidden;
+}
+.floor9 .product img.second {
+  width: 3.59rem;
+  height: 1.44rem;
+  float: right;
+  margin-bottom: 1px;
+  overflow: hidden;
+}
+.floor10 {
+  overflow: hidden;
+  background: #eee;
+}
+.floor10 .title {
+  width: 7.2rem;
+  height: 0.6rem;
+  background-image: url(../images/145914606659420042.png);
+  background-size: 7.2rem 0.6rem;
+}
+.floor10 .product {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+.floor10 .product .first {
+  width: 50%;
+  height: auto;
+  overflow: hidden;
+  padding: 0  .1rem;
+}
+.floor11 {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  background: #eeeeee;
+}
+.floor11 .title {
+  position: relative;
+  text-align: center;
+  height: .4rem;
+  width: 100%;
+  margin-top: .2rem;
+  margin-bottom: .2rem;
+  font-size: .34rem;
+  background-color: #f2f2f2;
+  color: #353d44;
+  display: inline-block;
+}
+.floor11 .product {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  float: left;
+}
+.floor11 .product .danpin {
+  margin-bottom: .2rem;
+  padding: 0 .1rem;
+  width: 45%;
+  overflow: hidden;
+  float: left;
+  margin-left: 0.1rem;
+  margin-right: 0;
+  background: #ffffff;
+}
+.floor11 .product .danpin img {
+  width: 3.47rem;
+  height: 3.47rem;
+}
+.floor11 .product .danpin .jieshao {
+  width: 90%;
+  height: auto;
+  overflow: hidden;
+  font-size: 0.2rem;
+  padding: 0.03rem;
+  padding-right: .2rem;
+  margin-bottom: .1rem;
+}
+.floor11 .product .danpin .price {
+  width: 90%;
+  height: auto;
+  overflow: hidden;
+  color: red;
+  font-size: 0.2rem;
+  padding: 0.03rem;
+}
+.floor11 .product .danpin:nth-of-type(2n) {
+  float: right;
+  margin-left: 0;
+  margin-right: 0.1rem;
 }

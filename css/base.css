@@ -11,4 +11,5 @@ td {
   list-style: none;
   text-decoration: none;
   font-size: 0;
+  -webkit-top-highlight-color: rgba(0, 0, 0, 0);
 }

@@ -11,7 +11,7 @@
 	var reFont = function (){
 		var clientWidth = docEl.clientWidth>maxWidth?maxWidth:docEl.clientWidth;
 		var scale = clientWidth/dWidth;
-		document.title=scale;
+		//document.title=scale;
 		// scale = scale>0.6?0.6:scale;
 		var size = dSize * scale;
 		docEl.firstElementChild.appendChild(fontEl);
